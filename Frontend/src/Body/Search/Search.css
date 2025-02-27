@@ -1,0 +1,133 @@
+.container{
+    width: 100%;
+    height: 900px;
+    background-image: url(https://res.cloudinary.com/dwzzzllfr/image/upload/v1733046236/home_yvtb5p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.innerContainer{
+    padding:1rem;
+    /* border: 2px solid green; */
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.7;
+    width: 30%;
+    height: 60%;
+    background-color: rgb(238, 245, 238);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4% auto;
+    justify-content: space-evenly;
+
+}
+
+.innerContainer h1{
+    color: rgb(13, 13, 13);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form{
+    margin: 0 auto;
+    /* border: 1px solid red;  */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.form{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+sup{
+    color: rgb(241, 83, 109);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.inputA input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0.1rem;
+    margin: 2% auto;
+    /* margin-top: 4%; */
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.inputB{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 90%;
+    /* margin-top: 4%; */
+}
+
+.inputB>.cont> input{
+    width: 90%;
+    margin: 4% auto;
+    padding: 0.2rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* border: 2px solid red; */
+}
+
+button {
+    margin: 0 auto;
+    width: 20%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+
+
+@media screen  and (max-width:1000px){
+
+    .innerContainer{
+        width: 60%;
+    }
+
+    .innerContainer h1{
+        font-size: medium;
+    }
+
+    .form{
+        border: none;
+    }
+
+    .inputB{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputB>.cont> input{
+        width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+.login-wrap{
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dwzzzllfr/image/upload/v1733046236/home_yvtb5p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid white;
+  padding: 2px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-container input {
+  flex: 1;
+  padding-right: 40px; /* Space for button */
+}
+
+.password-container button {
+  position: absolute;
+  right: 5px;
+  background: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
+.button:hover {
+  background: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+  .login-container {
+      max-width: 80%;
+      margin: 150px auto;
+  }
+  button{
+    width: 40%;
+  }
+}

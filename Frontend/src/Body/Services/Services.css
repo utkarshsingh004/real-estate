@@ -1,0 +1,56 @@
+.service-wrapper {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    margin: 4% auto;
+    /* border: 2px solid red; */
+    justify-items: center;
+    padding: 2rem;
+}
+
+.serviceHeading{
+    margin-top: 4%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.ser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(237, 223, 204);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.ser h3{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: green;
+}
+
+.ser p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 90%;
+    color: rgb(3, 46, 60);
+}
+
+.ser:hover {
+    border: 2px solid black;
+    box-shadow: 6px 3px 12px 2px rgb(183, 66, 66); /* Increased shadow for better effect */
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+@media screen and (max-width:1000px) {
+     .ser:hover{
+        border: none;
+        box-shadow: none;
+     }
+}

@@ -1,0 +1,110 @@
+.signup-wrap{
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dwzzzllfr/image/upload/v1733046236/home_yvtb5p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid white;
+  padding: 2px;
+}
+
+.signup-container {
+  width: 90%;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  opacity: 0.8;
+  /* border: 2px solid black; */
+}
+
+form{
+  border-color: green;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  /* border: 2px solid blue */
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.button {
+  width: 100px;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+
+}
+
+button:hover {
+  background: #218838;
+}
+
+/* ✅ Responsive Styles */
+@media (max-width: 1000px) {
+  
+  .signup-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  input,
+  button {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  input {
+    width: 70%;
+    border: 2px solid red;
+  }
+
+}
